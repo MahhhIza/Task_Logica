@@ -1,0 +1,32 @@
+Não sabia se precisava colocar os arquivos "package-lock.json", "package.json" e o "tsconfig.json", já que são gerados e configurado para meu caso.
+Então por via das dúvidas coloquei kkk
+
+ENUNCIADO DO EXERCÍCIO
+
+Poste o link do repositorio do GitHub especifico para essa atividade, contendo minimamente, os arquivos .ts e .json
+
+Desafio Final: Auditoria de Estoque Assíncrona
+
+Arquivo alvo: ./estoque.json | Script: auditoria,ts
+
+[1] TIPAGEM
+
+Defina type ItemEstoque (id, nome, preco, quantidade) e type RelatorioAuditoria (valorTotalEstoque, produtos Criticos).
+
+[2] PIPELINE
+
+Utilize fs/promises com encadeamento .then() e.catch() para ler o arquivo base.
+
+[3] LÓGICA
+
+Calcule o valor total do estoque (preco quantidade).
+
+Filtre produtos em nível crítico (quantidade < 5).
+
+[4] PERSISTÊNCIA
+
+Salve o objeto formatado no arquivo ./auditoria.json.
+
+Garanta a captura de exceções.
+
+Objetivo de Arquitetura: Acesso ao sistema de arquivos de ponta a ponta, sem bloquear a Main Thread por um único milissegundo.
