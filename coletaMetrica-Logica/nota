@@ -1,0 +1,36 @@
+Desafio Técnico: Módulo de Coleta e Média de Métricas (TypeScript)
+
+Deve ser desenvolido um pequeno módulo de validação para um sistema de telemetria. O sistema precisa capturar manualmente uma amostra de 5 medições numéricas fornecidas por um operador via interface do navegador, processar esses dados na memória e emitir um relatório simplificado de saída.
+
+Especificações e Requisitos do Código:
+
+Entrada de Dados Dinâmica:
+
+O programa deve solicitar ao usuário exatamente 5 valores sequenciais.
+
+A coleta deve utilizar a caixa de diálogo nativa do navegador (prompt()).
+
+Restrição: É obrigatório o uso de uma estrutura de repetição (loop) para realizar as 5 coletas. Não será aceito o uso de 5 variáveis declaradas manualmente (val1, val2, etc.).
+
+Tratamento e Tipagem de Dados (TypeScript):
+
+Como a função prompt() retorna string (ou null), você deve realizar a conversão explícita para o tipo number apropriado.
+
+Certifique-se de tratar a tipagem corretamente de acordo com os padrões do TypeScript (evite utilizar o tipo any).
+
+Processamento:
+
+Calcule o somatório total dos 5 valores armazenados no array.
+
+Calcule a média aritmética simples dessas medições.
+
+Exibição dos Resultados (Saída Dupla):
+
+A resposta final contendo a soma e a média deve ser apresentada em dois canais obrigatoriamente:
+
+No console do desenvolvedor via console.log().
+
+Em uma janela pop-up na tela via alert().
+
+Postar o arquivo em texto:
+Não deve ser postado arquivo e sim somente o codigo TypeScript para validação.
