@@ -1,0 +1,17 @@
+{
+  "valorTotalEstoque": 513.55,
+  "produtosCriticos": [
+    {
+      "id": 2,
+      "nome": "Lápis de Cor",
+      "preco": 18.5,
+      "quantidade": 3
+    },
+    {
+      "id": 4,
+      "nome": "Tinta Acrílica",
+      "preco": 32.9,
+      "quantidade": 2
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nome": "Caderno de Desenho",
+    "preco": 25.90,
+    "quantidade": 10
+  },
+  {
+    "id": 2,
+    "nome": "Lápis de Cor",
+    "preco": 18.50,
+    "quantidade": 3
+  },
+  {
+    "id": 3,
+    "nome": "Pincel Artístico",
+    "preco": 12.75,
+    "quantidade": 7
+  },
+  {
+    "id": 4,
+    "nome": "Tinta Acrílica",
+    "preco": 32.90,
+    "quantidade": 2
+  },
+  {
+    "id": 5,
+    "nome": "Borracha",
+    "preco": 5.50,
+    "quantidade": 8
+  }
+]
