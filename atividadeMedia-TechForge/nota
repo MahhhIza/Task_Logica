@@ -1,0 +1,30 @@
+##Desafio Técnico: Engenharia de Fluxo e Classificação de Dados (Exercicio 1)
+
+**Contexto:**Como parte da disciplina de Engenharia e Estruturas de Dados, este laboratório visa superar o desenvolvimento procedural básico (monolítico) em favor de uma **Arquitetura de Integração de Dados** modular e escalável. O objetivo é processar um conjunto de dados brutos seguindo o princípio de Responsabilidade Única.
+
+**Especificações da Estrutura de Dados:**
+
+- **Entrada (Input):** O sistema deve operar sobre um *dataset* inicial composto por um **Array de 30 valores flutuantes (notas)**, compreendidos estritamente no intervalo de 0.0 a 10.0.
+- **Restrição de Loop:** Para a alimentação ou validação inicial, utilize estruturas de repetição que garantam a integridade dos dados antes do processamento.
+
+**Requisitos de Engenharia (Lógica de Processamento):**Você deve implementar um motor de processamento dividido em funções especialistas que evitem efeitos colaterais globais (encapsulamento):
+
+1. **Módulo de Triagem (Separação):**
+   - Desenvolva uma função que receba o array bruto e três sub-arrays como parâmetros.
+   - A lógica deve distribuir cada nota nos buckets correspondentes: **Aprovados** (n ≥ 7.0), **Exame** (4.0 ≤ n < 7.0) e **Reprovados** (n < 4.0).
+   - É obrigatório que esta função utilize o retorno de valores ou manipulação direta de referências para manter a integridade dos arrays de saída.
+2. **Módulo de Inteligência (Ordenação Algorítmica):**
+   - Implemente uma função de ordenação crescente que aceite qualquer array de notas.
+   - **PROIBIÇÃO TÉCNICA:** É estritamente proibido o uso de métodos nativos de ordenação automática (como .sort(). O estudante deve implementar a lógica de comparação e troca de posições baseada em índices manuais.
+   - Lembre-se da Regra de Ouro: o índice final é sempre tamanho - 1.
+
+**Fluxo de Saída (Output):**
+
+- Seguindo a **Arquitetura do Trabalho Prático**, a exibição dos resultados não deve ocorrer dentro das funções de cálculo.
+- Crie uma função exclusiva de relatório que consuma os dados já processados e ordenados para renderizar o resultado final de forma limpa.
+
+**Critérios de Avaliação:**
+
+- **Modularização:** O código está dividido em funções especialistas ou é um bloco monolítico?
+- **Uso de Return:** As funções agem como "caixas-pretas" ou apenas executam ações locais?
+- **Algoritmo Puro:** A ordenação foi construída logicamente ou utilizou atalhos da linguagem?
